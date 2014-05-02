@@ -1,5 +1,11 @@
 package com.gurps.designpatterns.creational.abstractfactory;
 
+/**
+ * 
+ * @author gurps bassi
+ * gurpiar.bassi@gmail.com
+ *
+ */
 public class AbstractVehicleFactory {
 	
 	private AbstractVehicleFactory(){
