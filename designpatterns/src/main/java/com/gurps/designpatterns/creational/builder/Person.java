@@ -1,5 +1,13 @@
 package com.gurps.designpatterns.creational.builder;
 
+/**
+ * The builder pattern prevents the headache caused by the 
+ * telescoping constructor problem.
+ * 
+ * It also ensures that mutator method calls are thread safe.
+ * @author gurps
+ *
+ */
 public class Person {
 
 	private final String firstName;

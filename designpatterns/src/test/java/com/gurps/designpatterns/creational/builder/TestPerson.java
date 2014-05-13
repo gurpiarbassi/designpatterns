@@ -16,5 +16,4 @@ public class TestPerson {
 		assertEquals(10, person.getAge());
 		assertEquals("Australlia", person.getCountryOfBirth());
 	}
-
 }
