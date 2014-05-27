@@ -22,6 +22,15 @@ public class Panel implements Component{
 			component.refresh();
 		}
 	}
+	
+	public int getNoOfSubComponents(){
+		int size = 0;
+		for(Component component : childComponents){
+			size = size + 1 + component.getNoOfSubComponents();
+		}
+		
+		return size;
+	}
 
 	public String getType() {
 		return getClass().getSimpleName();

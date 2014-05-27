@@ -10,4 +10,6 @@ public interface Component {
 	void refresh();
 	
 	String getType();
+	
+	int getNoOfSubComponents();
 }

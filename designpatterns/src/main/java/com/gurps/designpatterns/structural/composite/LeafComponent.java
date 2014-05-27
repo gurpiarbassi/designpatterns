@@ -9,11 +9,14 @@ public class LeafComponent implements Component{
 	}
 	
 	public void refresh() {
-		System.out.println("Refreshing leaf " + id);
-		
+		System.out.println("Refreshing leaf " + id);		
 	}
 
 	public String getType() {
 		return getClass().getSimpleName();
+	}
+
+	public int getNoOfSubComponents() {
+		return 0;
 	}
 }

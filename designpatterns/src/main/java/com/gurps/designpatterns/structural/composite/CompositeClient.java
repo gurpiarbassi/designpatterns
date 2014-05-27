@@ -37,5 +37,12 @@ public class CompositeClient {
 		panel1.add(panel2); // you can add panel2 to panel1 since they are both of type Components
 		
 		panel1.refresh();
+		System.out.println("leaf1 inner components = " + leaf1.getNoOfSubComponents());
+		System.out.println("leaf2 inner components = " + leaf2.getNoOfSubComponents());
+		System.out.println("leaf2 inner components = " + leaf3.getNoOfSubComponents());
+		
+		
+		System.out.println("panel 1 inner components = " + panel1.getNoOfSubComponents());
+		System.out.println("panel 2 inner components = " + panel2.getNoOfSubComponents());
 	}
 }
