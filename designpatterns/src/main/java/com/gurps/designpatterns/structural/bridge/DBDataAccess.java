@@ -1,6 +1,6 @@
 package com.gurps.designpatterns.structural.bridge;
 
-public class DBDataAccess implements PersisenceImplementor{
+public class DBDataAccess implements PersistenceImplementor{
 
 	public void save(PersistenceEntity pe) {
 		//save data to database

@@ -2,9 +2,9 @@ package com.gurps.designpatterns.structural.bridge;
 
 public class DataAccessImpl implements DataAccess{
 
-	private PersisenceImplementor implementor = null;
+	private PersistenceImplementor implementor = null;
 	
-	public DataAccessImpl(PersisenceImplementor implementor) {
+	public DataAccessImpl(PersistenceImplementor implementor) {
 		super();
 		this.implementor = implementor;
 	}

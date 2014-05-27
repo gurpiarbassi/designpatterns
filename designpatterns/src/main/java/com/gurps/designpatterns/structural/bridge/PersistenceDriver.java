@@ -4,7 +4,7 @@ public class PersistenceDriver {
 
 	public static void main(String[] args){
 		
-		PersisenceImplementor implementor = null;
+		PersistenceImplementor implementor = null;
 		
 		//choose correct implementor based on cmd line args
 		

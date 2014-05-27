@@ -7,7 +7,7 @@ public class TestBridge {
 
 	@Test
 	public void testBridge() {
-		PersisenceImplementor implementor = new FileDataAccess();
+		PersistenceImplementor implementor = new FileDataAccess();
 		PersistenceEntity pe = implementor.findByPrimaryKey(1L);
 		Assert.assertEquals("F", pe.getRecordType());
 		

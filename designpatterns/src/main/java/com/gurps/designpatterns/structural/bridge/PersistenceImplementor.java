@@ -1,6 +1,6 @@
 package com.gurps.designpatterns.structural.bridge;
 
-public interface PersisenceImplementor {
+public interface PersistenceImplementor {
 
 	void save(PersistenceEntity pe);
 

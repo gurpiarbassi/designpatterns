@@ -1,7 +1,7 @@
 package com.gurps.designpatterns.structural.bridge;
 
 
-public class FileDataAccess implements PersisenceImplementor{
+public class FileDataAccess implements PersistenceImplementor{
 
 	public void save(PersistenceEntity pe) {
 		System.out.println("Saving file");
