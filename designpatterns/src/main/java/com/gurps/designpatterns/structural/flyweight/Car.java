@@ -9,8 +9,8 @@ public class Car {
 	private String model;
 	private String year;
 	
-	private String colour; //extrinsic state
-	
+	private String owner; //extrinsic state
+
 	public Car(String make, String model, String year) {
 		super();
 		this.make = make;
@@ -30,16 +30,14 @@ public class Car {
 		return year;
 	}
 	
-	public void setColour(String colour){
-		this.colour = colour;
+	public void setOwner(String owner) {
+		this.owner = owner;
 	}
-	
-	
-	
+
 	@Override
 	public String toString() {
 		return "Car [make=" + make + ", model=" + model + ", year=" + year
-				+ ", colour=" + colour + "]";
+				+ ", owner=" + owner + "]";
 	}
 
 	public void printVehicleSpecifics(){
