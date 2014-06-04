@@ -17,7 +17,7 @@ public class TestAnimalCloningFactory {
 		System.out.println(System.identityHashCode(clonedSheep1));
 		System.out.println(System.identityHashCode(clonedSheep2));
 		
-		Assert.assertNotEquals(System.identityHashCode(clonedSheep1), System.identityHashCode(clonedSheep2));
+		Assert.assertNotSame(System.identityHashCode(clonedSheep1), System.identityHashCode(clonedSheep2));
 	}
 
 }
